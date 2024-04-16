@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>My Portfolio</title>
+    <link rel="stylesheet" type="text/css" href="./css/style.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#data">Explore Data</a></li>
+                <li><a href="#form">Form</a></li>
+            </ul>
+        </nav>
+        <h1>Welcome to My Portfolio</h1>
+    </header>
+    <main>
+        <section id="home" class="home">
+            <img src="profile.png" alt="Profile Image">
+            <h3>Febbry Andika</h3>
+            <p>Back End Developer</p>
+            <p>Welcome to my portfolio website.</p>
+        </section>
+        <section id="data" class="explore-data">
+            <div class="section-header">
+                <h2>Explore Data</h2>
+            </div>
+            <table>
+                <thead>
+                    <tr>
+                        <th>Name</th>
+                        <th>Email</th>
+                        <th>Phone</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>Febbry</td>
+                        <td>febbry@example.com</td>
+                        <td>123456789</td>
+                    </tr>
+                    <tr>
+                        <td>Andika</td>
+                        <td>andika@example.com</td>
+                        <td>987654321</td>
+                    </tr>
+                    <tr>
+                        <td>Ramadhan</td>
+                        <td>ramadhan@example.com</td>
+                        <td>546372819</td>
+                    </tr>
+                </tbody>
+            </table>
+        </section>
+        <section id="form" class="form">
+            <div class="section-header">
+                <h2>Form</h2>
+            </div>
+            <form>
+                <div class="data">
+                    <label for="name">Name</label><br>
+                    <input id="name" name="name" type="text" >
+                </div>
+                <div class="data">
+                    <label for="email">Email</label><br>
+                    <input id="email" name="email" type="email" >
+                </div>
+                <div class="data">
+                    <label for="message">Message</label><br>
+                    <textarea id="message" name="message"></textarea>
+                </div>
+                <div class="data">
+                    <button type="submit">Submit</button>
+                </div>
+            </form>
+        </section>
+    </main>
+</body>
+</html>
